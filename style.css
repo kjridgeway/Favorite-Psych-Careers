@@ -318,11 +318,10 @@ img {
   }
 }
 
-@media (max-width: 520px) {
-  .intro-image {
-    float: none;
-    width: 100%;
-    max-width: 350px;
-    margin: 0 auto 20px;
+@media (max-width: 760px) {
+  .card-content,
+  .card-image,
+  .informational-image {
+    flex-basis: 100%;
   }
 }

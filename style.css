@@ -256,6 +256,7 @@ img {
   width: 300px;
   height: auto;
   object-fit: initial;
+  justify-content: center;
   margin: 0 auto;
 }
 

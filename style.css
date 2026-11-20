@@ -236,30 +236,41 @@ img {
 }
 
 .card-image {
-  flex: 0 1 300px;
-  width: 300px;
-  max-width: 100%;
-  min-width: 0;
-  margin: 0;
+  flex: 1 1 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .card-image img {
-  width: 100%;
+  display: block;
+  width: 300px;
   max-width: 100%;
-  height: 220px;
+  height: auto;
+  margin: 0 auto;
   object-fit: cover;
   border: 4px solid #265050;
   border-radius: 10px;
 }
 
-.informational-image img {
-  width: 300px;
-  height: auto;
-  object-fit: initial;
+.informational-image {
+  flex: 1 1 100%;
+  width: 100%;
+  display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
 }
 
+.informational-image img {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 .closing {
   margin: 0 0 70px;
   padding: 36px;
